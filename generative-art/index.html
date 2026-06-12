@@ -289,6 +289,7 @@ canvas.addEventListener('touchstart', e => {
 }, {passive: false});
 canvas.addEventListener('touchmove', e => {
   e.preventDefault();
+  if (!isDrawing) return;
   const r = canvas.getBoundingClientRect();
   draw(e.touches[0].clientX - r.left, e.touches[0].clientY - r.top);
 }, {passive: false});
