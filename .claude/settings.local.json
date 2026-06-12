@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__read_me",
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\MyDoc\\\\050.Claude-code\\\\generative-art\")"
+    ]
+  }
+}
