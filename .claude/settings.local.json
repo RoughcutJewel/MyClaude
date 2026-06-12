@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "mcp__visualize__read_me",
-      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\MyDoc\\\\050.Claude-code\\\\generative-art\")"
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\MyDoc\\\\050.Claude-code\\\\generative-art\")",
+      "Bash(git config *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --title 'Add README and fix touchmove isDrawing guard' --body ' *)"
     ]
   }
 }
