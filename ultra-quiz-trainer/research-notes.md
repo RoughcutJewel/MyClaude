@@ -8,5 +8,6 @@
 - [research-notes/2026-revival.md](research-notes/2026-revival.md) — 2026年復活版の確定情報(日程・費用負担・本人確認方式)、2ヶ月の帰国期間の分析、決勝地・推定旅程
 - [research-notes/show-history.md](research-notes/show-history.md) — 旧番組(1977〜1998年)の基本情報、歴代優勝者一覧(確度付き)
 - [research-notes/quiz-formats.md](research-notes/quiz-formats.md) — ○×・ペーパー・早押し等クイズ形式ごとのルールと出題設計への含意
+- [research-notes/question-design-tendencies.md](research-notes/question-design-tendencies.md) — 「テレビ放映されるクイズ番組」という制約から逆算した作問傾向の分析(実例付き)
 - [research-notes/production-behind-scenes.md](research-notes/production-behind-scenes.md) — 航空券/ホテルのダミーネーム予約運用、制作費と時代背景
 - [research-notes/verification-pitfalls.md](research-notes/verification-pitfalls.md) — 検証で破棄した捏造情報、地理的コストを検算しなかった旅程推測ミスなど、調査上の教訓
