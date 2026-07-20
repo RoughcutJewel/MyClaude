@@ -11,6 +11,7 @@
 - [research-notes/question-design-tendencies.md](research-notes/question-design-tendencies.md) — 「テレビ放映されるクイズ番組」という制約から逆算した作問傾向の分析(実例付き)
 - [research-notes/production-behind-scenes.md](research-notes/production-behind-scenes.md) — 航空券/ホテルのダミーネーム予約運用、制作費と時代背景
 - [research-notes/verification-pitfalls.md](research-notes/verification-pitfalls.md) — 検証で破棄した捏造情報、地理的コストを検算しなかった旅程推測ミスなど、調査上の教訓
+- [research-notes/ox-quiz-writing-principles.md](research-notes/ox-quiz-writing-principles.md) — 競技クイズ界隈の作問実践知(裏取り・曖昧性排除・題材選定基準)を番組固有の分析と接続
 
 ## クイズ内容そのものの知見(`research-notes/quiz-content/`)
 
