@@ -168,5 +168,89 @@ const QUESTIONS = [
     explanation: "明治19年(1886年)の郵便報知新聞が最初に「女神」と訳し、その後の表記ゆれを経て1920年代〜1930年頃に「自由の女神」表記が定着したとされる。戦後の定着ではない。",
     note: "単一ソース(Yahoo!知恵袋の回答、当時の新聞資料を引用)のみ。要追加裏取り",
     source_url: "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10206763070", verified: false
+  },
+
+  // --- 自由の女神バッチ2「意外性重視」(2026-07-20生成。research-notes/quiz-content/statue-of-liberty.md 参照) ---
+  // ユーザーフィードバック「バッチ1は基礎データ偏重で意外性に乏しい」を受け、
+  // 「思い込みを覆す系」「純粋な意外性・ローカルネタ系」を中心に再構成。○×比率5:5。
+  {
+    id: "ox-sol-011", type: "ox", genre: "自由の女神",
+    question: "自由の女神が現在掲げているたいまつは、1986年に一新されたもので、1886年当初のたいまつは現在、現地の博物館に展示されている。",
+    answer: true,
+    explanation: "オリジナルのたいまつは内部照明を琥珀色の窓越しに見せる設計だったが、窓の隙間から雨水が浸入し腕の支持構造を腐食させたため、建立100周年の1986年に現行の金箔張りたいまつへ完全交換された。",
+    note: "ナショナルジオグラフィック日本版で確認",
+    source_url: "https://natgeo.nikkeibp.co.jp/nng/article/news/14/1412/", verified: false
+  },
+  {
+    id: "ox-sol-012", type: "ox", genre: "自由の女神",
+    question: "自由の女神像がユネスコ世界遺産に登録されたのは、建立からちょうど100年後の1986年である。",
+    answer: false,
+    explanation: "世界遺産登録は1984年で、建立100周年(1986年)より2年早い。",
+    note: "複数の世界遺産解説サイトで一致",
+    source_url: "https://ja.wikipedia.org/wiki/自由の女神像_(ニューヨーク)", verified: false
+  },
+  {
+    id: "ox-sol-013", type: "ox", genre: "自由の女神",
+    question: "コロンビア映画のオープニングロゴに描かれた、たいまつを持つ女性像は、自由の女神をモデルにしている。",
+    answer: false,
+    explanation: "正式には「コロンビアレディ」と呼ばれる、自由の女神とは別の伝統に基づく人物像。実在のモデルが複数(1928〜40年代イヴリン・ヴェナブル、1936〜1993年ジェーン・チェスター・バーソロミュー、1992年〜ジェニー・ジョセフ)存在する。",
+    note: "複数の映画関連メディア記事で一致",
+    source_url: "https://news.tv.rakuten.co.jp/2024/04/k-columbia.html", verified: false
+  },
+  {
+    id: "ox-sol-014", type: "ox", genre: "自由の女神",
+    question: "東京・お台場にある自由の女神のレプリカは、ニューヨークの像から型を取って作られたものである。",
+    answer: false,
+    explanation: "1998年の「日本におけるフランス年」記念でパリの実物を借用したのが最初で、2000年に恒久設置されたレプリカは、ニューヨークではなくパリのリュクサンブール公園の像から型を取ったもの。",
+    note: "単一ソース(Wikipedia、出典不足警告付きページ)、追加裏取り推奨",
+    source_url: "https://ja.wikipedia.org/wiki/自由の女神像", verified: false
+  },
+  {
+    id: "ox-sol-015", type: "ox", genre: "自由の女神",
+    question: "台座に刻まれた移民を歓迎する詩「新しい巨像」は、除幕式(1886年)の17年後に追加設置された。",
+    answer: true,
+    explanation: "詩自体はエマ・ラザラスが1883年に執筆したが、台座への銅板設置は1903年。当初は募金活動用の一詩に過ぎず、ラザラス没後(1887年)に設置された。",
+    note: "複数ソースで一致",
+    source_url: "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000210841", verified: false
+  },
+  {
+    id: "ox-sol-016", type: "ox", genre: "自由の女神",
+    question: "1989年の天安門事件で、自由の女神を模した「民主の女神像」が設置されたが、5日後に破壊された。",
+    answer: true,
+    explanation: "北京の美術学生たちがニューヨークの自由の女神を模して高さ約9mの「自由と民主の女神」像を制作・設置したが、戒厳令下、人民解放軍の戦車によって5日後に押し倒された。",
+    note: "共同通信で確認。政治的に機微な話題のため、実際のテレビ番組では出題されにくい可能性が高い(一般教養として収録)",
+    source_url: "https://nordot.app/508105053662037089", verified: false
+  },
+  {
+    id: "ox-sol-017", type: "ox", genre: "自由の女神",
+    question: "「破壊された自由の女神」という表現は、第一次世界大戦期の戦時国債ポスターにまで遡る伝統である。",
+    answer: true,
+    explanation: "首を切断され頭部が地に転がる自由の女神とドイツ軍機を描いたWWI期の戦時国債プロパガンダポスターが存在する。『猿の惑星』『クローバーフィールド』等の演出は、この100年以上続く視覚的伝統の延長と考えられる。",
+    note: "検索結果からの推定。ポスター原資料の直接照合は未達、追加裏取り推奨",
+    source_url: "", verified: false
+  },
+  {
+    id: "ox-sol-018", type: "ox", genre: "自由の女神",
+    question: "2018年のアメリカ独立記念日、抗議者が自由の女神の台座によじ登り拘束される事件があった。",
+    answer: true,
+    explanation: "2018年7月4日、移民家族分離政策に抗議する女性が台座によじ登り、約2時間の対峙の末に拘束された。リバティ島観光客約3,000人が影響を受けた。",
+    note: "CNN.co.jp・AFPBBの2ソースで一致",
+    source_url: "https://www.cnn.co.jp/usa/35121964.html", verified: false
+  },
+  {
+    id: "ox-sol-019", type: "ox", genre: "自由の女神",
+    question: "2026年のアメリカ建国250周年を記念して、フランスから自由の女神に新しいたいまつが贈られた。",
+    answer: false,
+    explanation: "贈られたのはたいまつではなく、「Liberty Lights」という新しいライトアップ演出。たいまつの交換は1986年に既に完了している(ox-sol-011参照)。",
+    note: "ABC7 New Yorkで確認",
+    source_url: "https://abc7ny.com/post/special-celebration-marks-americas-250th-birthday-liberty-island/19432262/", verified: false
+  },
+  {
+    id: "ox-sol-020", type: "ox", genre: "自由の女神",
+    question: "アメリカの硬貨「スタンディング・リバティ・クォーター」に描かれた女神像は、自由の女神をモデルにしている。",
+    answer: false,
+    explanation: "彫刻家ハーマン・アトキンス・マクニールが実在の女性(ドリス・ドッシャー説とアイリーン・マクダウェル説が対立)をモデルに作った、ニューヨークの自由の女神とは別の「リバティ」像。",
+    note: "英語版Wikipedia・複数の貨幣専門サイトで一致",
+    source_url: "https://en.wikipedia.org/wiki/Standing_Liberty_quarter", verified: false
   }
 ];
