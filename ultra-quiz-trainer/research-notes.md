@@ -11,3 +11,9 @@
 - [research-notes/question-design-tendencies.md](research-notes/question-design-tendencies.md) — 「テレビ放映されるクイズ番組」という制約から逆算した作問傾向の分析(実例付き)
 - [research-notes/production-behind-scenes.md](research-notes/production-behind-scenes.md) — 航空券/ホテルのダミーネーム予約運用、制作費と時代背景
 - [research-notes/verification-pitfalls.md](research-notes/verification-pitfalls.md) — 検証で破棄した捏造情報、地理的コストを検算しなかった旅程推測ミスなど、調査上の教訓
+
+## クイズ内容そのものの知見(`research-notes/quiz-content/`)
+
+番組研究とは別に、実際の出題対象(自由の女神など決勝地の定番トピック)についての裏取り済み事実を蓄積する。
+
+- [research-notes/quiz-content/statue-of-liberty.md](research-notes/quiz-content/statue-of-liberty.md) — 自由の女神の基礎データ・○×のひっかけになりやすい象徴要素
